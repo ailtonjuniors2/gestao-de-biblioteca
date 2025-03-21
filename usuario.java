@@ -1,4 +1,4 @@
-public class usuario {
+public class Usuario {
     private String nome, email;
     private int id, telefone;
 
@@ -40,10 +40,10 @@ public class usuario {
 
     @Override
     public String toString(){
-        return "Usu?rio (" +
+        return "Usuario (" +
         "Nome:'" + nome + '\'' +
         " E-Mail:'" + email + '\'' +
-        " Identifica??o'" + id + '\'' +
+        " Identificacao'" + id + '\'' +
         " Telefone:'" + telefone + '\'' +
         ")";
     }

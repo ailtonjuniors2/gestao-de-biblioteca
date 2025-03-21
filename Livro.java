@@ -38,9 +38,9 @@
         @Override
         public String toString(){
             return "Livro (" +
-            "Título:'" + titulo + '\'' +
+            "Titulo:'" + titulo + '\'' +
             " Autor:'" + autor + '\'' +
-            " Ano de Publicação:'" + anoPublicacao + '\'' +
+            " Ano de Publicacao:'" + anoPublicacao + '\'' +
             " Status:'" + status + '\'' +
             ")";
         }
