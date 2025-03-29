@@ -13,6 +13,14 @@ public class Emprestimo {
         this.dataDevolucao = dataDevolucao;
     }
 
+    public Usuario getUsuario(){
+        return usuario;
+    }
+
+    public Livro getLivro(){
+        return livro;
+    }
+
     public boolean verificarDataDevolucao(){
         if (dataDevolucao == null){
             return false;
