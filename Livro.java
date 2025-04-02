@@ -2,6 +2,12 @@
         private String titulo, autor, status;
         private int anoPublicacao;
 
+        public Livro(String titulo, String autor, String status) {
+            this.titulo = titulo;
+            this.autor = autor;
+            this.status = status;
+        }
+
         // getter para retornar titulo do livro
         public String getTitulo() {
             return titulo;
